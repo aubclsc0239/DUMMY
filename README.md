@@ -1,6 +1,7 @@
 # DUMMY Demonstration Repository
 This is a dummy reposirtory to demonstrate directory structure, file tree, linking dois, and editing a README.md file
 
+[![DOI](https://zenodo.org/badge/940104074.svg)](https://doi.org/10.5281/zenodo.14939765)
 
 ## links to analysis
 
@@ -21,13 +22,13 @@ fs::dir_tree()
 │   ├── Challenge1.R
 │   ├── Challenge2.R
 │   └── Challenge3.R
-├── 02_analysis
+├── 02_analysis # Analaysis for part 2
 │   ├── Rmarkdown.Rmd
 │   ├── Rmarkdown.html
 │   └── Rmarkdown.md
-├── Dummy_Project.Rproj
+├── Dummy_Project.Rproj # Top level directory .Rproj file = working directory
 ├── README.html
-└── README.md
+└── README.md     # Top level directory README
 
 ```
 
