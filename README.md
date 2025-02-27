@@ -11,3 +11,25 @@ These are the links to the analysis file variable on Github (.md). The .RMD file
 
 
 ## file tree
+
+```r
+fs::dir_tree()
+```
+
+```bash
+├── 01_analysis
+│   ├── Challenge1.R
+│   ├── Challenge2.R
+│   └── Challenge3.R
+├── 02_analysis
+│   ├── Rmarkdown.Rmd
+│   ├── Rmarkdown.html
+│   └── Rmarkdown.md
+├── Dummy_Project.Rproj
+├── README.html
+└── README.md
+
+```
+
+
+
