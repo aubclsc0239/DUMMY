@@ -1,0 +1,59 @@
+---
+title: "R markdown tutorial"
+author: "Abdulmalik oladipupo"
+date: "2025-02-25"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+  md_document:
+    variant: gfm
+  pdf_document:
+  word_document:
+---
+
+This is an example of R code
+```{r setup, include=TRUE, echo=FALSE}
+# this is R code
+summary(mtcars)
+```
+
+This is how to include figures
+```{r}
+library(ggplot2)
+data("mtcars")
+ggplot(mtcars, aes(x = wt, y=mpg)) +
+  geom_point()
+
+```
+
+## R markdown formtting options
+
+# First level header
+
+**this is italics**
+
+- one item
+- another item
+  - one subitem
+  
+## links
+[link to my github](https://github.com/aubclsc0239/PLPA6820_2025/blob/main/Rmarkdown.md)
+
+## Images
+![Fish ggplot](fish.jpg)
+## Formatted tables
+```{r}
+library(knitr)
+kable(mtcars, digits = 5, format = "markdown")
+```
+
+## Table by hand
+
+First header | Second Header
+------------ | -------------
+Content Cell | Content Cell
+Content Cell | Content Cell
+
+
+
